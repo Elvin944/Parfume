@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size:5vh;
+    padding-top:5vh;
+}
+
+.div1{
+    padding-top:5vh;
+    width:60%;
+    height:80%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    padding-block:10px;
+}
+
+.icon{
+    font-size:8vh;
+    
+}
+
+@media only screen and (max-width:905px) {
+    .div1{
+        flex-direction: column !important;
+        width:32% !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .div1{
+        width: 35% !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .div1{
+        flex-direction: column !important;
+        width:54% !important;
+    }
+}
+
+
