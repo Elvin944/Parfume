@@ -1,13 +1,10 @@
 let money=0;
+localStorage.setItem("mode",i.classList);
 
 function GiveMoney(x) {
     return money+=x;
 }
 
-
-let anbar=0;
-
-function StartGame(y) {
-     anbar-y;
-}
-
+if (localStorage.getItem("mode")!=" ") {
+    body.classList.add(localStorage.getItem("mode"))
+};
